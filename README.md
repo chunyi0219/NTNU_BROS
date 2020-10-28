@@ -1,1 +1,1 @@
-# NTNU_BROS
+# NTNU_squad
