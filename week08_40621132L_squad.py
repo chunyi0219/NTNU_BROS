@@ -5,7 +5,7 @@ import re
 
 def nameMail(inputSTR):
     resultLIST = []
-    patREGEX = re.compile(r"((?<=\(\d\)\s)\D+?(?=\s)).*?((?<=\s)[\w,\.]+?\@[\w,\.]+)")
+    patREGEX = re.compile(r"((?<=\(\d\)\s)\D+?(?=\s)).*?((?<=\s).+?\@[\w,\.]+)")
     resultLIST = []    
     moLIST = patREGEX.findall(inputSTR)
     resultLIST.extend(moLIST)
