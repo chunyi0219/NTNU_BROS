@@ -151,6 +151,8 @@ if __name__== "__main__":
         "contentWord_dbp": contentWord_dbp,
         "contentWord_pbd": contentWord_pbd
     }
+    print("dbp_contentwordcount: ", jsonDICT["contentWord_dbp"])
+    print("pbd_contentwordcount: ", jsonDICT["contentWord_pbd"])
     jsonFileName = "count_result.json"
     jsonFileWriter(jsonDICT, jsonFileName)       
     
