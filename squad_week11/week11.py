@@ -142,7 +142,7 @@ if __name__== "__main__":
     contentWord_pbd = contentWordPlusPosCounter(posContent_pSTR)
     
     jsonDICT = {
-        "charCount_dbp": [i for i in charCount_dbp],
+        "charCount_dbp": charCount_dbp,
         "charCount_pbd": [i for i in charCount_pdb],
         "wordCount_dbp":[i for i in wordCount_dbp],
         "wordCount_pbd": [i for i in wordCount_pbd],
