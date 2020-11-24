@@ -143,13 +143,13 @@ if __name__== "__main__":
     
     jsonDICT = {
         "charCount_dbp": charCount_dbp,
-        "charCount_pbd": [i for i in charCount_pdb],
-        "wordCount_dbp":[i for i in wordCount_dbp],
-        "wordCount_pbd": [i for i in wordCount_pbd],
-        "posWordCount_dbp":[i for i in posWordCount_dbp],
-        "posWordCount_pbd":[i for i in posWordCount_pbd],
-        "contentWord_dbp": [i for i in contentWord_dbp],
-        "contentWord_pbd": [i for i in contentWord_pbd]
+        "charCount_pbd": charCount_pdb,
+        "wordCount_dbp":wordCount_dbp,
+        "wordCount_pbd": wordCount_pbd,
+        "posWordCount_dbp":posWordCount_dbp,
+        "posWordCount_pbd":posWordCount_pbd,
+        "contentWord_dbp": contentWord_dbp,
+        "contentWord_pbd": contentWord_pbd
     }
     jsonFileName = "count_result.json"
     jsonFileWriter(jsonDICT, jsonFileName)       
